@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Audio Player</title>
+    <script defer src="player.js"></script>
+</head>
+<body>
+    <!-- <script src="testscript2.js"></script> -->
+    <audio src="Sunology, Pt. 2.mp3"></audio>
+    <div id="player">
+      <button class="playPauseButton" type="button">play</button>
+      <!-- <button id="stop" class="player">stop</button> -->
+      <input id="volume" type="range">
+      <label for="volume">Volume</label>
+      <div class="progress-indicator">
+        <span class="current-time">0:00</span>
+        <input type="range" max="100" value="0" class="progress-bar">
+        <span class="duration">0:00</span>
+    </div>
+    </div>
+    <!-- <div id="importFile">
+        <form method="post" enctype="multipart/form-data">
+            <div>
+              <label for="file">Choose file to upload</label>
+              <input type="file" id="file" name="file" multiple />
+            </div>
+            <div>
+              <button>Submit</button>
+            </div>
+          </form>
+    </div> -->
+</body>
+</html>
